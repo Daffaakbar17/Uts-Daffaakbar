@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    color: #263238;
+}
+
+.header {
+    background: #126b55;
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0 0 14px;
+}
+
+nav {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 16px;
+    min-height: 60vh;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px #00000012;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 16px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 4px 0;
+    max-width: 100%;
+}
+
+input[type="number"] {
+    width: 90px;
+}
+
+button, .button {
+    background: #126b55;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.success {
+    background: #d8f3dc;
+}
+
+.error {
+    background: #ffe0e0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    background: #e4e9ed;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
