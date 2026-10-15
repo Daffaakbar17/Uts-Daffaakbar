@@ -1,7 +1,7 @@
 # Pemesanan Kantin Kampus
 
-- Nama: ISI NAMA KAMU
-- NIM: ISI NIM KAMU
+- Nama: DAFFA AKBAR
+- NIM: 25012055
 - Kelas: 25M11
 
 ## Deskripsi
